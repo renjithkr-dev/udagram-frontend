@@ -7,7 +7,7 @@ branchrs:
 script:
     - echo "Beginning docker build"
     - docker build -t udagram-frontend .
-    - docker tag udagram-frontend renjithtech6/udgaram-frontend
+    - docker tag udagram-frontend renjithtech6/udagram-frontend
 
 after_success:
     - echo "About to create container in Docker registry"
