@@ -1,2 +1,2 @@
-FROM renjithtech6/nginx-rproxy
+FROM nginx:alpine
 COPY www /usr/share/nginx/html
