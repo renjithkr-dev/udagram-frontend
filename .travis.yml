@@ -5,6 +5,7 @@ branchrs:
     only:
     - master
 before_script:
+    - npm install
     - npm run build
 script:
     - echo "Beginning docker build"
