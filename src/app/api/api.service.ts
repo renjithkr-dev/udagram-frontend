@@ -10,7 +10,7 @@ const API_HOST = environment.apiHost;
 })
 export class ApiService {
   httpOptions = {
-    headers: new HttpHeaders({'Content-Type': 'application/json','Origin':environment.originHeader})
+    headers: new HttpHeaders({'Content-Type': 'application/json'})
   };
 
   token: string;
